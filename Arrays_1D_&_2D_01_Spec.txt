@@ -7,4 +7,12 @@ Write a program to print these details in specified format -
 1. One mode of transportation
 2. More than one mode of transportation
 
+Use System.out.format("%-5s%s\n","Id","Name") for formatting.
 
+Input 1: No. or ports
+Input 2: cityid|cityname|rail|road|air
+
+Output: One mode of transportation:
+ID Name
+MOre than one mode of transportation:
+Id Name
