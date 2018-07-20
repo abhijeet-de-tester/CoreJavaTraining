@@ -1,0 +1,10 @@
+Details of destination ports - 
+portId|portName|railTransportation|roadTransportation|airTransportation.
+
+'1' (true) if the port is enabled for that mode or '0' (false) if the port is not enabled for that mode.
+
+Write a program to print these details in specified format - 
+1. One mode of transportation
+2. More than one mode of transportation
+
+
