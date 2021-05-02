@@ -2,6 +2,7 @@ BufferedReader extends Reader
 
   1. It buffers the input for any input stream so that mutiple reads on the stream can be avoided.
   2. It can be used to wrap any existing Reader so that buffering can be utilized.
-  3. For example, BufferedReader = new BufferedReader(new FileInputReader("SomeFile.txt"));
-      will wrap BufferedReader over FileInputReader and multiple input/output to the disk can be avoided.
+  3. For example, BufferedReader = new BufferedReader(new FileReader("SomeFile.txt"));
+      will wrap BufferedReader over FileReader and multiple input/output to the disk can be avoided.
   4. If not used then each read() or readLine() is always a read from the stream being used.
+  5. 
