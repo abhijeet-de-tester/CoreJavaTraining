@@ -13,3 +13,6 @@ Diamond Operator
   2. JDK 7 vs JDK 9 difference in handling of the Diamond Operator
   JDK 7 - Diamond Operator cannot be used for Anonymous Inner Classes
   JDK 9 - Diamond Operator can also be used for Anonymous Inner Classes
+  3. Diammond Operator was introduced in JDK 7 to simplify the use of generics.
+  Generics -?
+  
