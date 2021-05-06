@@ -14,5 +14,6 @@ Diamond Operator
   JDK 7 - Diamond Operator cannot be used for Anonymous Inner Classes
   JDK 9 - Diamond Operator can also be used for Anonymous Inner Classes
   3. Diammond Operator was introduced in JDK 7 to simplify the use of generics.
-  Generics -?
-  
+  Generics - List<String> geeks = new ArrayList<String>();
+  Same code using Diamond Operator - List<String> geeks = new ArrayList<>();
+  i.e. No need to provide 'String' on the right hand side.
