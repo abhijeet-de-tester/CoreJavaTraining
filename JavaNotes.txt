@@ -5,4 +5,11 @@ BufferedReader extends Reader
   3. For example, BufferedReader = new BufferedReader(new FileReader("SomeFile.txt"));
       will wrap BufferedReader over FileReader and multiple input/output to the disk can be avoided.
   4. If not used then each read() or readLine() is always a read from the stream being used.
-  5. 
+
+Diamond Operator
+  1. Scanner Class
+  Scanner extends Object 
+  implements Iterator<String>
+  2. JDK 7 vs JDK 9 difference in handling of the Diamond Operator
+  JDK 7 - Diamond Operator cannot be used for Inner Classes
+  JDK 9 - Diamond Operator can also be used for Inner Classes
